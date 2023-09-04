@@ -1,0 +1,924 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* font-family: 'Bitter', serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive; */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.row::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+[class*="col-"]{
+    width: 100%;
+}
+[class*="col-"]{
+    float: left;
+}
+/* header design start */
+
+header{
+    padding: 1%;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.nav-items li{
+    list-style: none;
+    padding:20px 10px ;
+    display: block;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    transition: .5s;
+    transition-delay: .1s;
+}
+a .Features{
+    color: black;
+}
+.nav-items li a:hover{
+    transform: scale(1.3);
+    text-decoration:overline;
+}
+.nav-items li a.home{
+    color: #F46060;
+}
+/* header design ends */
+/* bannar design start */
+
+.bannar{
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+.bannar-desc{
+    background-color: #F46060;
+    padding: 20px 10px;
+}
+.bannar-desc{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Satisfy', cursive;
+}
+.bannar p{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    border: none;
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+    color: #F46060;
+}
+.bannar img{
+    width: 100%;
+    height: 500px;
+}
+
+/* bannar design ends */
+/* about design start */
+
+.about-us{
+    padding: 1%;
+    text-align:center ;
+  
+}
+span{
+    color: #F46060;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.about-desc{
+    margin: 10px 0px;
+}
+.about-desc h1{
+    font-family: 'Roboto', sans-serif;
+}
+.about-desc p{
+    margin-top: 10px;
+}
+.about-desc-pic{
+    width: 100%;
+   
+}
+.about-desc-pic img{
+    height: 300px;
+    padding: 10px ;
+}
+
+.about-pic{
+    width: 100%;
+    padding: 0px 10px;
+}
+.about-pic img{
+    width: 100%;
+}
+
+/* about design ends */
+/* menu design start */
+
+.row{
+    text-align: center;
+   
+}
+.service{
+    padding: 30px 10px;
+}
+.menu-all-items{
+    width: 100%;
+    padding:20px;
+    
+}
+.menu{
+    margin-top: 50px;
+}
+.menu h1{
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    padding:0px 10px;
+}
+
+
+
+.service{
+    padding:10px 20px;
+
+}
+
+.card-body{
+    text-align: center;
+    padding: 0px 10px;
+    margin: 20px 0px;
+
+}
+.div-pic{
+    background-image: url(images/f-1.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-pic h1{
+    background-color: #F46060;
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.card-body img{
+    width: 100%;
+    height: 500px;
+    display: block;
+   
+
+}
+.items-price{
+    background-color: #F46060;
+}
+.items-price h3{
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.card-body{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    transition: .5s;
+}
+.div-pic{
+    background-image: url(images/f-1.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-pic h1{
+    background-color: #F46060;
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+   
+
+}
+.card-body:hover{
+    transform: scale(1.1);
+}
+.card-body img{
+    width: 100%;
+    height: 500px;
+    display: block;
+   
+
+}
+.items-price{
+    background-color: #F46060;
+}
+.items-price h3{
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.items-price p{
+    font: .7rem;
+    padding: 10px;
+    color: white;
+}
+.items-price a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.card-body-1{
+    text-align: center;
+    transition: .5s;
+    padding:0px 10px;
+    margin: 20px 0px;
+   
+}
+.card-body-1:hover{
+    transform: scale(1.1);
+}
+.div-pic-1{
+    background-image: url(images/f-4.jpg);
+    width: 100%;
+    height: 190px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-pic-1 h1{
+    background-color: #F46060;
+    color: white;
+    width: 85px;
+    height: 35px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-body-1 img{
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+.items-price_1{
+    background-color: #F46060;
+    height: 156px;
+}
+.items-price_1 h3{
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.items-price_1 p{
+    font: .7rem;
+    padding: 10px;
+    color: white;
+}
+.items-price_1 a{
+    text-decoration: none;
+    color: white;
+}
+.div-pic-2{
+    background-image: url(images/f-2.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-pic-2 h1{
+    background-color: #F46060;
+    color: white;
+    width: 85px;
+    height: 35px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.div-pic-3{
+    background-image: url(images/f-3.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-pic-3 h1{
+    background-color: #F46060;
+    color: white;
+    width: 85px;
+    height: 35px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.div-icon p{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: #F46060;
+}
+
+.service::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+/* menu design ends */
+
+/* chef design start */
+.row{
+    padding: 1%;
+}
+.chef-desc{
+    text-align: center;
+    margin-top: 50px;
+}
+.chef-desc span{
+    font-size: 1rem;
+
+}
+.chef-desc h3{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.chef-1{
+    padding: 1%;
+    border: 1px gray solid;
+    margin: 10px 10px;
+}
+.chef-pic{
+    width: 100%;
+
+}
+.chef-pic img{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+.chef-name{
+    text-align: center;
+}
+.chef-name h3{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.chef-name p{
+    font-size: .8rem;
+}
+.chef{
+    margin-top: 50px;
+}
+.home-1 {
+    text-align: center;
+}
+a .home-icon{
+    color:white;
+    background-color: #F46060;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+/* chef design ends */
+/* contact us design start */
+
+.contact-all-items{
+    padding: 1%;
+    box-sizing: border-box;
+    background-image: url(images/contact-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: transparent;
+}
+.contact-us{
+    padding: 1%;
+    background-color: transparent;
+}
+.contact-desc{
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+.contact-desc h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-desc p{
+    font-size: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.name-phone{
+    padding: 1%;
+}
+.phone{
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.phone a{
+    height: 40px ;
+    width: 40px;
+    background-color: #F46060;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    color:white;
+    font-size: 1.8rem;
+}
+.phone h3{
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.phone p{
+    font-size: 1rem;
+    padding: 5px;
+}
+.email{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.email a{ 
+    height: 40px ;
+    width: 40px;
+    background-color: #F46060;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    color:white;
+    font-size: 1.8rem;
+}
+.email h3{
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.email p{
+    font-size: 1rem;
+    padding: 5px;
+}
+.contact-me{
+    padding:1%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    height: 450px;
+}
+.form{
+    margin-top: 30px;
+}
+.form h3{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.form input{
+    height: 25px;
+    width: 40%;
+    border: 1px solid black;
+    border-radius:5px;
+    margin: 5px 3px;
+}
+textarea{
+    width: 82%;
+    height: 185px;
+    border: 1px solid black;
+    border-radius: 5px;
+    resize:none;
+    padding: 20px 5px;
+    font-size: 1.1rem;
+}
+#btn{
+    border: none;
+    background-color: #F46060;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.home-3{
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #F46060;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+a .home-icon-3{
+    font-size: .7rem;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+.contact-all-items::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/* contact us design ends */
+
+/* footer design start */
+
+.footer-items{
+    background-color: #F46060;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+.footer-icon{
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+}
+.fa{
+    color: white;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.footer-desc h5, h6{
+    font-family: 'Fira Sans', sans-serif;
+}
+.footer-items::after{
+    clear: both;
+    content: '';
+    display: table;
+
+}
+
+/* footer design ends */
+
+/* small size responsive(min-width:500px;) */
+@media (min-width:500px){
+.col-sm-1 {
+    width: 8.33%;
+}
+.col-sm-2 {
+    width: 16.66%;
+}
+.col-sm-3 {
+    width: 25%;
+}
+.col-sm-4 {
+    width: 33.33%;
+}
+.col-sm-5 {
+    width: 41.66%;
+}
+.col-sm-6 {
+    width: 50%;
+}
+.col-sm-7 {
+    width: 58.33%;
+}
+.col-sm-8 {
+    width: 66.66%;
+}
+.col-sm-9 {
+    width: 75%;
+}
+.col-sm-10 {
+    width: 83.33%;
+}
+.col-sm-11 {
+    width: 91.66%;
+}
+.col-sm-12 {
+    width: 100%;
+}
+/* about us design start */
+
+.about-desc-pic img{
+    height: 90px;
+    padding: 10px 10px;
+    margin-left: 20px;
+}
+
+/* about us design ends */
+
+
+}
+
+/* medium size responsive(min-width:760px;) */
+@media (min-width:760px){
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+
+/* header design start */
+header{
+    background-color: transparent;
+}
+.logo{
+    text-align: left;
+}
+.nav-items{
+    text-align: right;
+}
+.nav-items li{
+    display: inline-block;
+}
+.nav-items li a{
+    display: inline-block;
+    font-size: 1rem;
+}
+
+/* header design ends */
+/* bannar design start */
+
+
+.bannar-desc{
+    height: 500px;
+    text-align: left;
+   
+}
+.div-1{
+    margin-top:150px;
+}
+
+/* bannar design ends */
+/* about design start */
+
+.about-us{
+    margin: 50px 50px;
+    background-color: aliceblue;
+}
+.about-us::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+span{
+    font-size: .9rem;
+}
+.about-desc{
+    text-align: left;
+}
+
+.about-desc-pic{
+    width: 100%;
+    height: 100px;
+}
+.about-desc-pic img{
+    height: 60px;
+    width: 60px;
+    margin: 10px 10px;
+}
+.about-pic{
+   margin-top: 50px;
+}
+/* about design ends */
+/* menu design start */
+.row{
+    padding: 0px 30px;
+    text-align: left;
+   
+}
+.home-2{
+    margin-left: 30px;
+}
+.menu{
+    margin-top: 50px;
+}
+.service{
+    padding:10px 20px;
+
+}
+.row span{
+    margin-left: 25px;
+}
+.row h1{
+    margin-left: 30px;
+}
+
+/* menu design ends */
+/* contact us design start */
+
+.contact-me{
+    margin-top: 210px;
+    height: 382px;
+}
+.form h3{
+    font-size: 1.5rem;
+}
+.form input{
+    height: 25px;
+    
+}
+textarea{
+    height: 140px;
+}
+#btn{
+    padding: 8px;
+}
+
+
+
+/* contact us design ends */
+/* footer design start */
+
+.footer-icon{
+   text-align: left;
+   font-size: 2.5rem;
+}
+.footer-desc{
+    text-align: right;
+}
+.footer-desc h5{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-desc h6{
+    font-size: 1rem;
+}
+
+
+/* footer design ends */
+
+
+}
+/* big size responsive(min-width:990px;) */
+@media (min-width:990px){
+    .col-bi-1 {
+        width: 8.33%;
+    }
+    .col-bi-2 {
+        width: 16.66%;
+    }
+    .col-bi-3 {
+        width: 25%;
+    }
+    .col-bi-4 {
+        width: 33.33%;
+    }
+    .col-bi-5 {
+        width: 41.66%;
+    }
+    .col-bi-6 {
+        width: 50%;
+    }
+    .col-bi-7 {
+        width: 58.33%;
+    }
+    .col-bi-8 {
+        width: 66.66%;
+    }
+    .col-bi-9 {
+        width: 75%;
+    }
+    .col-bi-10 {
+        width: 83.33%;
+    }
+    .col-bi-11 {
+        width: 91.66%;
+    }
+    .col-bi-12 {
+        width: 100%;
+    }
+
+    /* header design start */
+
+
+.nav-items{
+    text-align: right;
+}
+.nav-items li{
+    display: inline-block;
+}
+.nav-items li a{
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+/* header design ends */
+
+/* about design start */
+.about-desc-pic img{
+    height: 80px;
+    width: 80px;
+    margin: 10px 10px;
+}
+/* about design ends */
+
+/* menu design start */
+
+
+
+/* menu design ends */
+
+/* contact us design start */
+.contact-me{
+    margin-top: 172px;
+    height: 382px;
+    width: 45%;
+}
+.form h3{
+    font-size: 1.5rem;
+}
+.form input{
+    height: 25px;
+    
+}
+textarea{
+    height: 140px;
+}
+#btn{
+    padding: 8px;
+}
+
+/* contact us design ends */
+}
+
+
